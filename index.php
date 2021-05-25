@@ -15,7 +15,6 @@
 
   </head>
   <body>
-    <a onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/back-to-top.png" width="40px"></a>
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-main-color">
     <div class="container-fluid">
@@ -39,6 +38,7 @@
     </div>
   </nav>
 </header>
+<a onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/back-to-top.png" width="40px"></a>
 <main id="home">
 <?php
       if(isset($_SESSION['message'])): ?>
