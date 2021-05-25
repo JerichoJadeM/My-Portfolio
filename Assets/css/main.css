@@ -130,3 +130,6 @@ Scroll from bottom to top
   background-color: #1fd1f9;
   background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
 }
+.for-slide1{
+  background: linear-gradient(-120deg, #f3f3f5, #Ec008B, #352384, #333447 );
+}

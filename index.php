@@ -57,9 +57,7 @@
       <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="images/gradient background 1.jpg">
-
+      <div class="carousel-item for-slide1 active">
         <div class="container">
           <div class="carousel-caption text-start">
             <div class="col-md-4 typewriter">
