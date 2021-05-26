@@ -169,7 +169,7 @@
     <h2 class="featurette-heading mb-2 mt-0" style="text-align: center;">My Recent Projects</h2>
     <h4 class="mb-5 mt-0" style="text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Here are some of my projects I've worked on recently</h4>
     <div class="row featurette text-light text-center">
-        <div class="row mb-3">
+        <div class="row mb-3 mx-auto text-center">
             <div class="card mx-auto mb-3 shadow card-bg conImage" style="width: 21rem;">
               <img src="images/PaymentSystem.png" style="width: auto; height: 250px;" class="card-img-top img-fluid mt-2" alt="Jericho Jade">
               <div class="card-body">
