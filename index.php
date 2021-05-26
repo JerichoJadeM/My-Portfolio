@@ -204,7 +204,7 @@
           </div>
       </div>
         </div>
-        <div class="row text-center">
+        <div class="row mx-auto text-center">
           <div class="col">
             <button class="btn btn-lg btn-outline-light bg-main-color rounded-pill">I'am excited to show you more soon!</button>
           </div>
