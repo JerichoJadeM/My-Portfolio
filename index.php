@@ -188,7 +188,8 @@
             <p class="card-text">A system designed for grade school teachers and students to easily manage grades and view online.</p>
             </div>
             <div class="overlay">
-              <div class="text"><a href="https://elemgradingsystem.herokuapp.com/" class="btn btn-lg rounded-pill btn-outline-light bg-main-color">Visit Website</a></div>
+              <div class="text"><small>May not work on mobile devices</small></p><br>
+              <a href="https://elemgradingsystem.herokuapp.com/" class="btn btn-lg rounded-pill btn-outline-light bg-main-color">Visit Website</a></div>
             </div>
         </div>
 
