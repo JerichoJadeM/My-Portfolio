@@ -163,7 +163,7 @@
   </div>
 
     <!-- START THE FEATURETTES -->
-  <div class="container marketing mt-3 text-center" id="project">
+  <div class="container marketing mt-3 mx-auto text-center" id="project">
 
     <hr class="featurette-divider mb-4" id="about">
     <h2 class="featurette-heading mb-2 mt-0" style="text-align: center;">My Recent Projects</h2>
