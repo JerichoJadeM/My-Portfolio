@@ -4,11 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="My personal website containing my profile and projects">
+    <meta name="description" content="Jericho Jade Madolid's personal website containing my profile and personal projects on web development">
     <meta name="author" content="Jericho Jade Madolid">
     
     <title>Jericho Jade Madolid | Web Developer</title>
-    <link rel="icon" href="images/dev.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/avatar.PNG" type="image/gif" sizes="16x16">
     <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Assets/css/main.css">
     <link href="Assets/css/carousel.css" rel="stylesheet">
@@ -112,7 +112,7 @@
           Because of this pandemic, my schedule has become more flexible and it allows me to build web applications.
       </h4>
       </div>
-      <div class="col-md-4 text-center mx-auto d-block pt-1">
+      <div class="col-md-4 text-center mx-auto d-block pt-1 order-lg-last order-first">
         <img src="images/jericho.jpg" class="rounded-circle border border-dark mb-3" style="text-align: center;" width="200" height="200">
         <div class="row">
           <a href="images/Jericho Jade Madolid - Resume.pdf" target="_blank">
@@ -218,23 +218,35 @@
       <div class="col-md-5">
         <img src="images/coffee.jpg" style="width: 500px; height: 500px;" class="shadow mb-5 bg-white rounded img-fluid">
       </div>
-      <div class="col-md-7">
-        <form action="includes/sendEmail.php" class="needs-validation" method="POST" novalidate>
+      <div class="col-md-7 order-lg-last order-first">
+        <form action="includes/sendEmail.php" class="g-3 needs-validation" method="POST" novalidate>
           <div class="mb-3">
             <label class="form-label lead"><strong>Fullname</strong></label>
-            <input type="email" class="form-control" name="name" placeholder="Your fullname" required="required" />
+            <input type="text" class="form-control" name="name" id="validationCustom01" placeholder="Your fullname" required>
+              <div class="invalid-feedback">
+                Please enter you fullname
+              </div>
           </div>
           <div class="mb-3">
             <label class="form-label lead"><strong>Email address</strong></label>
-            <input type="email" class="form-control" name="email" placeholder="Your email address" required="required" />
+            <input type="email" class="form-control" name="email" id="validationCustomUsername" placeholder="Your email address" required>
+              <div class="invalid-feedback">
+                Please enter a valid email.
+              </div>
           </div>
           <div class="mb-3">
             <label class="form-label lead"><strong>Subject</strong></label>
-            <input type="email" class="form-control" name="subject" placeholder="Enter a subject" required="required" />
+            <input type="text" class="form-control" name="subject" id="validationCustom03" placeholder="Enter a subject" required>
+            <div class="invalid-feedback">
+              Please add a subject
+            </div>
           </div>
           <div class="mb-3">
             <label class="form-label lead"><strong>Message</strong></label>
-            <textarea class="form-control" rows="7" name="message" required="required" ></textarea>
+            <textarea class="form-control" rows="7" name="message" required></textarea>
+            <div class="valid-feedback">
+              
+            </div>
           </div>
           <div class="mb-3 text-center">
             <button type="submit" class="btn btn-outline-light bg-main-color btn-lg rounded-pill" name="send">Submit</button>
@@ -282,6 +294,27 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+  })()
     </script>  
   </body>
 </html>
