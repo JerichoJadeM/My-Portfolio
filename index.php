@@ -223,7 +223,7 @@
             <label class="form-label lead"><strong>Fullname</strong></label>
             <input type="text" class="form-control" name="name" id="validationCustom01" placeholder="Your fullname" required>
               <div class="invalid-feedback">
-                Please enter you fullname
+                Please enter your fullname
               </div>
           </div>
           <div class="mb-3">
