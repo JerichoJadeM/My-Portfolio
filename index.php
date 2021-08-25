@@ -128,32 +128,32 @@
   <div class="container marketing shadow rounded" style="background-color: blueviolet; padding: 10px; color: white;">
     
     <div class="row text-center">
-      <div class="col-md-2">
+      <div class="col">
         <img src="images/HTML.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
         <h2>HTML 5</h2>
         
       </div><!-- /.col-lg-4 -->
-      <div class="col-md-2">
+      <div class="col">
         <img src="images/css3.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
         <h2>CSS 3</h2>
         
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-2">
+      <div class="col">
         <img src="images/jslogo.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
         <h2>JavaScript</h2>
         
       </div><!-- /.col-lg-4 -->
-      <div class="col-md-2">
+      <div class="col">
         <img src="images/PHP.svg" class="bd-placeholder-img rounded-circle" width="150" height="150">
         <h2>PHP</h2>
         
       </div><!-- /.col-lg-4 -->
-      <div class="col-md-2">
+      <div class="col">
         <img src="images/mysql.svg" class="bd-placeholder-img rounded-circle" width="150" height="150"">
         <h2>MySQL</h2>
         
       </div><!-- /.col-lg-4 -->
-      <div class="col-md-2">
+      <div class="col">
         <img src="images/bootstrap.svg" class="bd-placeholder-img rounded-circle" width="150" height="150">
         <h2>Bootstrap</h2>
         
