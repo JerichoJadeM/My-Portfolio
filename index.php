@@ -107,8 +107,8 @@
     <div class="row">
       <div class="col-md-8">
         <h4 class="text-center pt-4">
-          I 'am currently a 4th year college taking up Bachelor of Science in Information Technology, I have taken many lessons in software development specially in web development. 
-          Because of this pandemic, my schedule has become more flexible and it allows me to build web applications.
+          I am a graduate of Bachelor of Science in Information Technology, I specialized in software development specially in building web applications. 
+          I'm an an efficient worker, I love to deliver best results to always satisfy all of the clients needs.
       </h4>
       </div>
       <div class="col-md-4 text-center mx-auto d-block pt-1 order-lg-last order-first">
