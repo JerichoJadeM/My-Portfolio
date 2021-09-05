@@ -114,9 +114,14 @@
       <div class="col-md-4 text-center mx-auto d-block pt-1 order-lg-last order-first">
         <img src="images/jericho.jpg" class="rounded-circle border border-dark mb-3" style="text-align: center;" width="200" height="200">
         <div class="row">
-          <a href="images/Jericho Jade Madolid - Associate Software Engineer.pdf" target="_blank">
-            <button class="btn btn-outline-dark rounded-pill"><strong>Download my CV</strong></button>
-          </a>
+          <div class="col">
+            <a href="https://www.linkedin.com/in/jericho-jade-madolid-12885568/" target="_blank">
+              <button class="btn btn-outline-dark rounded-pill mb-1"><strong>Visit Linkedin</strong></button>
+            </a>
+            <a href="images/Jericho Jade Madolid - Associate Software Engineer.pdf" target="_blank">
+              <button class="btn btn-outline-dark rounded-pill"><strong>Download CV</strong></button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
