@@ -118,9 +118,11 @@
             <a href="https://www.linkedin.com/in/jericho-jade-madolid-12885568/" target="_blank">
               <button class="btn btn-outline-dark rounded-pill mb-1"><strong>Visit Linkedin</strong></button>
             </a>
+            <!--
             <a href="images/Jericho Jade Madolid - Associate Software Engineer.pdf" target="_blank">
               <button class="btn btn-outline-dark rounded-pill"><strong>Download CV</strong></button>
             </a>
+            -->
           </div>
         </div>
       </div>
