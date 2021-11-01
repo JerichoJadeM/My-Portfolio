@@ -115,7 +115,7 @@
         <img src="images/jericho.jpg" class="rounded-circle border border-dark mb-3" style="text-align: center;" width="200" height="200">
         <div class="row">
           <div class="col">
-            <a href="https://www.linkedin.com/in/jericho-jade-madolid-12885568/" target="_blank">
+            <a href="https://www.linkedin.com/in/jerichojade/" target="_blank">
               <button class="btn btn-outline-dark rounded-pill mb-1"><strong>Visit Linkedin</strong></button>
             </a>
             <!--
@@ -272,7 +272,7 @@
       <a href="https://www.facebook.com/aegon.madolid/" target="_blank" class="card-link"><img src="images/facebook.png" width="25px"></a>
       <a href="https://www.instagram.com/jericho.jade/" target="_blank" class="card-link"><img src="images/instagram.webp" width="25px"></a>
       <a href="https://github.com/Saserdote" target="_blank" class="card-link"><img src="images/github.png" width="25px"></a>
-      <a href="https://www.linkedin.com/in/jericho-jade-madolid-12885568/" target="_blank" class="card-link"><img src="images/linkedin.png" width="25px"></a>
+      <a href="https://www.linkedin.com/in/jerichojade/" target="_blank" class="card-link"><img src="images/linkedin.png" width="25px"></a>
       <a href="https://www.facebook.com/aegon.madolid/" target="_blank" class="card-link"><img src="images/twitter.png" width="25px"></a>
     </div>
     Copyright &copy; 2020 - <script>document.write(new Date().getFullYear());</script> All rights reserved
