@@ -131,7 +131,7 @@
 
   <!-- Container ng mga SKILLS
   ================================================== -->
-  <h6 class="featurette-heading mb-3 mt-0 text-center">Languages I learned</h6>
+  <h6 class="featurette-heading mb-3 mt-0 text-center">Expertise</h6>
   <div class="container marketing shadow rounded" style="background-color: blueviolet; padding: 10px; color: white;">
     
     <div class="row text-center">
