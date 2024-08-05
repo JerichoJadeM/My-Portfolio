@@ -31,6 +31,9 @@
             <a class="nav-link" href="#project">Projects</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
@@ -63,7 +66,7 @@
             <div class="col-md-4 typewriter">
               <h3>Hi How are you?</h3>
             </div>
-            <h1>I' am <br> Jericho Jade B. Madolid </h1><h3> Nice to meet you.</h3>
+            <h1>I'm <br> Jericho Jade B. Madolid </h1><h3> It's a pleasure to meet you.</h3>
             <p><a class="btn btn-outline-light bg-main-color rounded-pill mt-2" href="#about" role="button"><strong>More about me</strong></a></p>
           </div>
         </div>
@@ -72,10 +75,10 @@
         <div class="container">
           <div class="carousel-caption text-start">
             <div class="col-sm-4 typewriter">
-              <h3>I can help you!</h3>
+              <h3>How can I help you?</h3>
             </div>
-            <h1>I' am <br> A web developer </h1><h3> I love building web applications</h3>
-            <p><a class="btn btn-outline-light bg-main-color rounded-pill mt-2" href="#project" role="button"><strong>See my projects</strong></a></p>
+            <h1>I'm <br> A software developer. </h1><h3> I specialize in web-based applications.</h3>
+            <p><a class="btn btn-outline-light bg-main-color rounded-pill mt-2" href="#project" role="button"><strong>View my projects</strong></a></p>
           </div>
         </div>
       </div>
@@ -83,9 +86,9 @@
         <div class="container">
           <div class="carousel-caption text-start">
             <div class="col-sm-4 typewriter">
-              <h3 class>Its my passion!</h3>
+              <h3 class>Driven by passion!</h3>
             </div>
-            <h1>I' am <br> committed to build </h1> <h3>and maintain reliable web applications.</h3>
+            <h1>I'm <br> dedicated to building </h1> <h3>and maintain reliable web applications.</h3>
             <p><a class="btn btn-outline-light bg-main-color rounded-pill mt-2" href="#contact" role="button"><strong>Say Hello</strong></a></p>
           </div>
         </div>
@@ -107,8 +110,9 @@
     <div class="row">
       <div class="col-md-8">
         <h4 class="text-center pt-4">
-          I am a graduate of Bachelor of Science in Information Technology, I specialized in software development specially in building web applications. 
-          I'm an efficient worker, I love to deliver best results to always satisfy all of the clients needs.
+            With three years of experience as an application developer, I specialize in web development and software maintenance. My skills in Java and PostgreSQL, along with a knack for agile methodologies, help me deliver quality projects. 
+            I also use Python and VBA to streamline processes, making work efficient and effective.
+      </h4>
       </h4>
       </div>
       <div class="col-md-4 text-center mx-auto d-block pt-1 order-lg-last order-first">
@@ -129,45 +133,44 @@
     </div>
   </div>
 
-  <!-- Container ng mga SKILLS
+  <!-- Container of SKILLS
   ================================================== -->
-  <h6 class="featurette-heading mb-3 mt-0 text-center">Expertise</h6>
-  <div class="container marketing shadow rounded" style="background-color: blueviolet; padding: 10px; color: white;">
+  <h6 class="featurette-heading mb-3 mt-0 text-center">Technologies I Work With</h6>
+  <div class="container marketing shadow rounded" style="background-color: #8E11A0; padding: 10px; color: white;">
     
     <div class="row text-center">
       <div class="col">
-        <img src="images/HTML.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
-        <h2>HTML 5</h2>
-        
+        <img src="images/java-logo.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
+        <h2>Java</h2>
       </div><!-- /.col-lg-4 -->
+    
       <div class="col">
-        <img src="images/css3.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
-        <h2>CSS 3</h2>
-        
+        <img src="images/springboot.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
+        <h2>Springboot</h2> 
       </div><!-- /.col-lg-4 -->
+    
       <div class="col">
-        <img src="images/jslogo.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
-        <h2>JavaScript</h2>
-        
+        <img src="images/psql.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
+        <h2>PostgreSQL</h2>
       </div><!-- /.col-lg-4 -->
+      
       <div class="col">
-        <img src="images/PHP.svg" class="bd-placeholder-img rounded-circle" width="150" height="150">
-        <h2>PHP</h2>
-        
+        <img src="images/py.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
+        <h2>Python</h2>
       </div><!-- /.col-lg-4 -->
-      <div class="col">
-        <img src="images/mysql.svg" class="bd-placeholder-img rounded-circle" width="150" height="150"">
-        <h2>MySQL</h2>
-        
-      </div><!-- /.col-lg-4 -->
+
       <div class="col">
         <img src="images/bootstrap.svg" class="bd-placeholder-img rounded-circle" width="150" height="150">
         <h2>Bootstrap</h2>
-        
       </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-  </div>
 
+      <div class="col">
+        <img src="images/HTML.png" class="bd-placeholder-img rounded-circle" width="150" height="150">
+        <h2>HTML</h2>
+      </div><!-- /.col-lg-4 -->
+
+    </div><!-- /.row -->
+   </div>
     <!-- START THE FEATURETTES -->
   <div class="container marketing mt-3 mx-auto text-center" id="project">
 
@@ -217,6 +220,34 @@
         </div>
     </div>
   </div>
+ 
+  <!-- Services section -->
+  <div class="container marketing">
+    <hr class="featurette-divider" id="services">
+    <h2 class="featurette-heading mb-5 mt-0" style="text-align: center;">What I Offer</h2>
+    <div class="row featurette">
+      <div class="col-md-6">
+        <img src="images/PaymentSystem-removebg-preview.png" style="width: 650px; height: 500px;" class=" img-fluid">
+      </div>
+      <div class="col-md-6">
+
+        <h3>Web Application Development:</h3>
+
+        <p class="lead">Specializing in building robust and scalable web applications using Java Spring Boot or PHP. Developing custom backend systems, APIs, and full-stack solutions.</p>
+        
+        
+        <h3>Automation Solutions:</h3>
+
+        <p class="lead">Automation services using Python and VBA for Excel. Includes automating repetitive tasks, data processing, and workflow optimization to improve efficiency and reduce manual work.</p>
+        
+        <h3>Database Management and Maintenance:</h3>
+
+        <p class="lead">Experience in MySQL and PostgreSQL for data management, includes database design, optimization, data migration, and maintenance, ensuring data integrity and performance.</p>
+      </div>
+    </div>
+
+
+  <!-- Contact Us section -->
   <div class="container marketing">
     <hr class="featurette-divider" id="contact">
     <h2 class="featurette-heading mb-5 mt-0" style="text-align: center;">Thank you for taking the time, How can I help you today?</h2>
